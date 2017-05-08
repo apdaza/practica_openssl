@@ -1,0 +1,43 @@
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Ejemplo de cifrado</title>
+  <meta name="description" content="ejemplo de cifrado cimetrico y asimetrico">
+  <!--to use AES encryption-->
+  <!--src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"-->
+  <script src="aes.js" language="javascript"></script>
+  <script src="jquery.min.js" language="javascript"></script>
+  <!--to use RSA encryption-->
+  <!--src="http://cdn.rawgit.com/travist/jsencrypt/v2.1.0/bin/jsencrypt.js"-->
+  <script src="jsencrypt.js" language="javascript"></script>
+  <script src="cifrado.js" language="javascript"></script>
+
+  <style>
+    #passEncrypted {
+      display: none;
+    }
+  </style>
+
+</head>
+
+<body>
+<div id="passEncrypted">xJnxsyKVnrjI154it/K8Y0fzucpfj2SmF6bay8AXaR/U/zYGBB8VGqj2FYoxbWfdZb2lRMZNFjQJdk9nagmNN4VzcvqGWlqlW2ZO2lvv0pb3JYNYMlQN3OzXNlPF+G81dNZSVTZhdGsBXRrRa7o6H+0AnD2Yb0NLqk/sSehFUSI=
+</div>
+
+<h1>Listado de Clientes</h1>
+<table id="tablaClientes">
+  <tr>
+      <th>Nombre</th>
+      <th>Acción</th>
+  </tr>
+</table>
+
+<h2>Detalle del Cliente seleccionado</h2>
+<div id="detalleClientes">
+
+</div>
+
+</body>
+</html>
